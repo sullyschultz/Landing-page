@@ -18,7 +18,7 @@ button {
     background-color: #3882f6;
     border-color: #3882f6;
     border-style: none;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #f9faf8;
     font-weight: 600;
     width: 90px;
@@ -37,6 +37,67 @@ button {
 
 .section-three {
     background-color: #e5e7eb;
+    padding: 80px 120px 60px 120px;
+    
+}
+
+.section-four {
+    padding: 50px 80px 50px 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four-container {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 7px;
+    padding: 30px 50px 30px 50px;
+    margin: 20px;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.calltoaction .one {
+    font-size: 18px;
+    font-weight: bolder;
+   
+}
+
+.calltoaction .two {
+    font-size: 12px;
+    font-weight: 200;
+    
+}
+
+.section-four button {
+    border-color: white;
+    border-style: solid; 
+    border-width: 1,5px;
+    margin-left: 20px;
+    
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    
+    
+    
+    
+}
+
+.quote {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    text-align: right;
 }
 
 .section-two {
@@ -115,6 +176,12 @@ button {
 
 .footer {
     background-color: #1f2937;
+    height: 60px;
+    color: whitesmoke;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .list {
     display:flex;
